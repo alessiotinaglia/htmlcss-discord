@@ -23,6 +23,9 @@ body{
 
 /* inizio header */
 
+.spazio{
+    padding: 150px 30px;
+}
 .contenitore-blu{
     background-color: #255EE9;
     border: 1px solid black;
@@ -59,24 +62,26 @@ header ul li a{
 
 .bottone-piccolo{
     display: inline-block;
+    text-decoration: none;
     padding: 11px 16px;
     border-radius: 50px;
+    background-color: white;
     cursor: pointer; 
 }
+
 p{
     line-height: 2;  
 }
+
 .p-white{
-    
     color: white;
     font: 50px;
 }
 
 h1{
-    font-size: 4em;
+    font-size: 3em;
     color: white;
     padding-bottom: 20px;
-    
 }
 
 /* inizio main */
@@ -114,10 +119,13 @@ main button a{
     justify-content: space-around;
 }
 
+.column-reverse{
+    flex-direction;
+    column-reverse;
+}
 
 .contenitori{      
     border: 1px solid black;
-    padding: 110px 0;
 }
 
 .immagine{
@@ -134,21 +142,30 @@ main button a{
 .paragrafo{
     font-size: 20px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .bottone-grande{
-    /* display: flex; 
-    align-items: center; */
-    padding: 15px 2px;   
+    display: inline-block;
+    padding: 12px 20px;   
     border-radius: 40px;
     cursor: pointer;
+    background-color: white;
+    color: black;
 }
-
+.decoration{
+    text-decoration: none;
+}
 .bottone-sfondo-nero{
+    display: inline-block;
+    padding: 17px 20px;   
+    border-radius: 40px; 
     background-color: #23272A;
-    padding: 15px 2px;   
-    border-radius: 40px;   
-    cursor: pointer; 
+    cursor: pointer;
+}
+#freccia{
+    padding: 5px;
+    font-size: 1.2em;
 }
 .bottone-sfondo-nero a{
     color: white;
@@ -157,11 +174,11 @@ main button a{
     font-size: 16px;
 }
 
-.freccia-nera{
-    width: 24px;
-    padding: 5px;
-    /* height: auto; */
+.aling-center{
+    text-align: center;
 }
+
+
 
 /* .onde-basse{
     background-image: url(./img/wave.svg);
@@ -178,9 +195,6 @@ main button a{
 .sfondo-grigio{
     background-color: #F6F6F6;
 }
-.foto-tecnologia{
-    max-width: 1200px;
-}
 
 
 /* inizio footer */
@@ -193,8 +207,28 @@ main button a{
     color: #23272A;
     font-size: 50px;
     text-align: center;
+}
+
+#tecnologia{
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tecnologia img{
+    width: 100%;
+}
+.stelline{
+    background-image: url(./img/stars.svg);
     
 }
+
+div .stelline{
+    width: 51%;
+    height: 70px;
+}
+
 
 .scrittura-piccola{
     font-size: 20px;

@@ -11,6 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
@@ -27,9 +28,9 @@
                 <li><a href="">Sicurezza</a></li>
                 <li><a href="">Assistenza</a></li>
             </ul>
-            <button class="bottone-piccolo">
-                Accedi
-            </button>
+            <div>
+                <a class="bottone-piccolo" href="">Accedi</a>
+            </div>
 
 
         </div>
@@ -46,17 +47,17 @@
                     semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, <br>discord rende
                     più
                     facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
-                <button class="bottone-grande">
-                    <a href=""><span class="freccia-nera">&darr;</span>
-                        <span class="scritta-bottone">Scarica per</span>
-                        Mac</a>
-                </button>
-                <button class="bottone-sfondo-nero"><a >Apri discord nei tuoi browser</a></button>
+                <div class="bottone-grande">
+                    <a class="decoration" href=""><i id="freccia" class="fa-solid fa-arrow-down-long"></i>Scarica per Mac</a>
+                </div>
+                <div class="bottone-sfondo-nero">
+                    <a class="decoration" href="">Apri discord nei tuoi browser</a>
+                <div>
             </div>
         </section>
 
         <section class="contenitori d-flex">
-            <div class="impaginazione centrato d-flex">
+            <div class="spazio impaginazione centrato d-flex">
                 <div class="immagine">
                     <img src="./img/item1.svg" alt="immagine ">
                 </div>
@@ -67,7 +68,7 @@
         </section>
 
         <section class="contenitori sfondo-grigio d-flex">
-            <div class="impaginazione centrato d-flex row-reverse">
+            <div class="spazio impaginazione centrato d-flex row-reverse">
                 <div class="immagine">
                     <img src="./img/item2.svg" alt="immagine ">
                 </div>
@@ -78,7 +79,7 @@
         </section>
 
         <section class="contenitori d-flex">
-            <div class="impaginazione centrato d-flex">
+            <div class="spazio impaginazione centrato d-flex">
                 <div class="immagine">
                     <img src="./img/item3.svg" alt="immagine">
                 </div>
@@ -88,31 +89,34 @@
             </div>              
         </section>
 
+        </section>
+        <section class="spazio contenitori centrato .d-flex sfondo-grigio column-reverse">
+            <div class="centrato impaginazione">
+                <h2 class="terza-inserzione">Tecnologia affidabile per tenersi in contatto</h2>
+                <p class="terza-inserzione scrittura-piccola">Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. fai ciao in video, guarda <br> gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condividione schermo<p>      
+                </div>            
+            <div id="tecnologia">
+                <img src="./img/item4-big.svg" alt="immagine tecnologia">
+            </div>
+             
+
+            <section class="contenitori sfondo-grigio">
+                <div class="spazio centrato ingrandimento">
+                    <h2 class="stelline centrato aling-center"><br>                   Pronto ad iniziare la tua avventura?</h2>
+                <div class="bottone-grande centrato">
+                    <a class="decoration" href=""><i id="freccia" class="fa-solid fa-arrow-down-long"></i>Scarica per Mac</a>
+                </div>
+                </div>
+            </section>
+
+        </section>
         
-
-        </section>
-        <section class="contenitori .d-flex sfondo-grigio">
-            <div class="centrato">
-               <h2 class="terza-inserzione">Tecnologia affidabile per tenersi in contatto</h2>
-               <p class="terza-inserzione scrittura-piccola">Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. fai ciao in video, guarda <br> gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condividione schermo<p>
-               <div class="foto-grande">
-                <img class="foto-tecnoloiga" src="./img/item4-big.svg" alt="foto terza inserzione">
-               </div>
-            </div>
-            
-
-        </section>
-        <section class="contenitori sfondo-grigio">
-            <div class="centrato">
-                sodfgnsru
-            </div>
-
     </main>
     <!-- inizio footer -->
     <footer>
         <div class="contenitori sfondo-nero color-white">
-            <div class="contenitori centrato impaginazione d-flex space-between">
-                <div class="impaginazione ">Footer 1</div>
+            <div class="spazio contenitori centrato impaginazione d-flex space-between">
+                <div class="spazio impaginazione ">Footer 1</div>
                 <ul class="impaginazione">
                     <li>lista 1</li>
                 </ul>
@@ -125,11 +129,9 @@
                 <ul class="impaginazione">
                     <li>lista 4</li>
                 </ul>
-
             </div>
-
         </div>
-        <section class="sfondo-nero color-white">
+        <section class=" spazio sfondo-nero color-white">
             <div class="sfondo-nero color-white">
                 <div class="contenitori centrato impaginazione d-flex space-between footer-top">
                     <ul>
