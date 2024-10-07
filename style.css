@@ -12,6 +12,10 @@ body{
     border: 1px solid black;   
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* colori
 #255EE9 blu 
 #F5F5F5; grigio
@@ -22,7 +26,7 @@ body{
 /* inizio header */
 
 .spazio{
-    padding: 130px 30px;
+    padding: 100px 30px;
 }
 .contenitore-blu{
     background-color: #255EE9;
@@ -119,9 +123,9 @@ main button a{
 }
 
 .column-reverse{
-    flex-direction;
-    column-reverse;
+    flex-direction: column;
 }
+    
 
 .contenitori{      
     border: 1px solid black;
@@ -142,7 +146,18 @@ main button a{
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+} 
+.wave{
+    height: 100px;
+    width: 100%;
+    background-image: url('./img/wave.svg');
+    opacity: 0.2;
 }
+
+.rotate{
+    transform: rotate(180deg);
+}
+
 
 .bottone-grande{
     display: inline-block;
@@ -178,21 +193,12 @@ main button a{
 }
 
 
-
-/* .onde-basse{
-    background-image: url(./img/wave.svg);
-    color: #F5F5F5;
-    display: flex;
-    align-self: flex-end;
-    background-repeat: repeat;
-} */
-
 .immagine img{
     width: 100%;
 }
 
 .sfondo-grigio{
-    background-color: #F6F6F6;
+    background-color: #CCCCCC;
 }
 .terza-inserzione{
     color: #23272A;
@@ -224,6 +230,7 @@ div .stelline{
 .padding{
     padding: 50px 50px;
 } 
+
 
 .blu-chiaro{
     background-color: #7289DA;
