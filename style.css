@@ -8,20 +8,9 @@ body{
     font-family: Whitney, 'Helvetica Neue', Arial, Helvetica, sans-serif 
 }
 
-.impaginazione{
-    border: 1px solid black;   
-}
-
 html{
     scroll-behavior: smooth;
 }
-
-/* colori
-#255EE9 blu 
-#F5F5F5; grigio
-#7289DA; blu-chiaro
-#23272A; nero */
-/* #F6F6F6 */
 
 /* inizio header */
 
@@ -30,12 +19,10 @@ html{
 }
 .contenitore-blu{
     background-color: #255EE9;
-    border: 1px solid black;
 }
 .centrato { 
     margin: 0 auto;
     max-width: 1200px;  
-    border: 1px solid black;  
 }
 .spessore{
     padding: 20px 15px;
@@ -45,7 +32,6 @@ html{
 .testo-iniziale{
     margin: 0 auto;
     max-width: 800px; 
-    border: 1px solid black;
     text-align: center;
 }
 
@@ -126,21 +112,14 @@ main button a{
     flex-direction: column;
 }
     
-
-.contenitori{      
-    border: 1px solid black;
-}
-
 .immagine{
     width: 60%;
-    border: 1px solid black;
 }
 
 .testo{
     padding-top: 25px;
     font-size: 30px;
     width: 40%;
-    border: 1px solid black;
 }
 .paragrafo{
     font-size: 20px;
