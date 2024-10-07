@@ -5,9 +5,7 @@
 }
 
 body{
-    font-family: "Poppins", system-ui;
-    font-weight: 400;
-    font-style: normal;  
+    font-family: Whitney, 'Helvetica Neue', Arial, Helvetica, sans-serif 
 }
 
 .impaginazione{
@@ -24,7 +22,7 @@ body{
 /* inizio header */
 
 .spazio{
-    padding: 150px 30px;
+    padding: 130px 30px;
 }
 .contenitore-blu{
     background-color: #255EE9;
@@ -71,6 +69,7 @@ header ul li a{
 
 p{
     line-height: 2;  
+    font-size: 1.2em;
 }
 
 .p-white{
@@ -151,8 +150,8 @@ main button a{
     border-radius: 40px;
     cursor: pointer;
     background-color: white;
-    color: black;
 }
+
 .decoration{
     text-decoration: none;
 }
@@ -195,14 +194,6 @@ main button a{
 .sfondo-grigio{
     background-color: #F6F6F6;
 }
-
-
-/* inizio footer */
-
-.sfondo-nero{
-    background-color: #23272A;
-}
-
 .terza-inserzione{
     color: #23272A;
     font-size: 50px;
@@ -220,24 +211,47 @@ main button a{
     width: 100%;
 }
 .stelline{
-    background-image: url(./img/stars.svg);
-    
+    background-image: url(./img/stars.svg);    
 }
 
 div .stelline{
-    width: 51%;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 52%;
     height: 70px;
+    background-repeat: no-repeat;
+}
+.padding{
+    padding: 50px;
 }
 
+.blu-chiaro{
+    background-color: #7289DA;
+}
+
+
+/* inizio footer */
+
+.bottone-blu{
+    background-color: #23272A;
+}
 
 .scrittura-piccola{
     font-size: 20px;
     padding-top: 20px;
 }
+
+.aling-center{
+    text-align: center;
+}
+
 .color-white{
     color: white;
 }
 
 .footer-top{
     border-top: 1px solid #F5F5F5;
+}
+.sfondo-nero{
+    background-color: #23272A;
 }
