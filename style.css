@@ -68,7 +68,7 @@ header ul li a{
 }
 
 p{
-    line-height: 2;  
+    line-height: 1.5;  
     font-size: 1.2em;
 }
 
@@ -222,8 +222,8 @@ div .stelline{
     background-repeat: no-repeat;
 }
 .padding{
-    padding: 50px;
-}
+    padding: 50px 50px;
+} 
 
 .blu-chiaro{
     background-color: #7289DA;
@@ -234,6 +234,10 @@ div .stelline{
 
 .bottone-blu{
     background-color: #23272A;
+}
+
+.blu{
+    color: #23272A;
 }
 
 .scrittura-piccola{
@@ -250,8 +254,67 @@ div .stelline{
 }
 
 .footer-top{
-    border-top: 1px solid #F5F5F5;
+    border-bottom: 1px solid #7289DA;;
 }
 .sfondo-nero{
     background-color: #23272A;
 }
+
+div ul li {
+    padding: 10px 0;
+ }
+
+footer ul li a{
+    padding: 10px 0px;
+    color: white;
+    text-decoration: none;
+}
+
+footer div h3{
+    color:  #7289DA;
+}
+    
+.info{
+    font-size: 2em;
+}
+.padding-footer1{
+    padding: 80px 0px 0px;
+}
+.altezza{
+    height: 455px;
+}
+
+.padding-footer2{
+    padding: 30px 0px 80px;
+}
+
+.logo-italia{
+    width: 25px;
+    padding: 20px 0px;
+    
+}
+ 
+.italiano{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+#icona{
+    padding: 5px;
+}
+#loghi{
+    font-size: 1.5em;
+}
+
+#loghi i{
+    padding: 5px;
+}
+.sritta-bianca{
+    color: white;
+}
+.paddin2{
+    padding: 10px;
+}
+
+ 
